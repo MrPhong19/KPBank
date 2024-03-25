@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Login</title>
+    <link rel="stylesheet" href="./t1.css">
+    <script src="./t1.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form class="login-form" action="#" method="POST">
+            <h2>KPBank Digibank</h2>
+            <p>Kính chào quý khách</p>
+            <div class="form-group">
+                <input type="email" id="username" name="username" placeholder="Tên đăng nhập" required>
+            </div>
+            <div class="form-group">
+                <input type="password" id="password" name="password" placeholder="Mật khẩu" required>
+            </div>
+            <div class="form-group">
+                <div class="captcha-container"> 
+                    <div class="captcha-input">
+                        <input type="text" id="captchaInput" name="captchaInput" placeholder="Enter captcha" required>
+                    </div>
+                    <button type="button" id="generateCaptcha"></button> 
+                    <button><img src="./xoay.png" alt="Captcha" class="captcha-icon" id="captchaButton"> </button>
+                </div>
+            </div>
+            <button type="submit" class="lg" id="lgin" name="lgin" placeholder="Đăng nhập" required>Đăng nhập</button>
+            <div class="language-selector" id="languageSelector"> 
+                <img src="./icondiacau.png" alt="Language" class="language-icon">Vietnamese</div> 
+            <div class="lh">
+                <img src="./iconlienhe.png" class="iconlienhe" >Liên hệ
+            </div>    
+        </form>
+    </div>
+    <img src="./logo.png" alt="Logo" class="logo">
+    <span class="brand">KPBank</span>
+   

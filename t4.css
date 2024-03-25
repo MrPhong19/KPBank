@@ -1,0 +1,81 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('./bg4.jpg');
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: gold;
+    color: #fff;
+    border:white;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    align:center;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    align:center;
+}
+.code-editor {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+textarea {
+    width: 100%;
+    height: calc(100% - 40px); 
+}
