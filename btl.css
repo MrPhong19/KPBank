@@ -433,7 +433,7 @@ button {
 }
 body
 {
-    background-image: url(/KPBank/bggg.webp);
+    background-image: url("/bggg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
